@@ -1,0 +1,33 @@
+name: Run test-coverage
+
+on: [push]
+
+jobs:
+  test:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Setup Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: 18 # Use a more recent Node.js version
+
+      - name: Install dependencies
+        run: npm ci
+
+      - name: Install Angular CLI
+        run: npm install -g @angular/cli
+
+      - name: Run tests with coverage
+        run: npx ng test --code-coverage --no-watch --no-progress
+
+      - name: Upload coverage to Codecov
+        uses: codecov/codecov-action@v4
+        with:
+          token: ${{ secrets.CODECOV_TOKEN }}
+          files: ./coverage/lcov.info
+          fail_ci_if_error: true
+          verbose: true
