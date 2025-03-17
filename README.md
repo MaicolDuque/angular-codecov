@@ -1,3 +1,7 @@
+# Code coverage
+
+[![codecov](https://codecov.io/gh/MaicolDuque/angular-codecov/graph/badge.svg?token=WO8K0Q48RZ)](https://codecov.io/gh/MaicolDuque/angular-codecov)
+
 # MyAngularApp
 
 This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 18.2.3.
