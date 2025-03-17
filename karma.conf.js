@@ -29,7 +29,7 @@ module.exports = function (config) {
       reporters: [
         { type: "html" },
         { type: "text-summary" },
-        { type: "lcov", subdir: "." },
+        { type: "lcovonly", subdir: "." },
       ],
       check: {
         global: {
@@ -41,7 +41,14 @@ module.exports = function (config) {
       },
     },
     reporters: ["progress", "kjhtml"],
-    browsers: ["Chrome"],
+    autoWatch: true,
+    browsers: ["ChromeHeadlessNoSandbox"],
+    customLaunchers: {
+      ChromeHeadlessNoSandbox: {
+        base: "ChromeHeadless",
+        flags: ["--disable-translate", "--disable-extensions", "--no-sandbox"],
+      },
+    },
     restartOnFileChange: true,
   });
 };
