@@ -13,7 +13,7 @@ jobs:
       - name: Setup Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: 18 # Use a more recent Node.js version
+          node-version: 18
 
       - name: Install dependencies
         run: npm ci
@@ -21,12 +21,26 @@ jobs:
       - name: Install Angular CLI
         run: npm install -g @angular/cli
 
-      - name: Run tests with coverage
-        run: npx ng test --code-coverage --no-watch --no-progress
+      - name: Run unit tests with coverage
+        run: npm run test:coverage
 
-      - name: Upload coverage to Codecov
+      - name: Start the app for Cypress tests
+        run: npm run start
+        env:
+          CI: true
+
+      # - name: Wait for app to be ready
+      #   run: npx wait-on http://localhost:4200 # Adjust URL if needed
+
+      - name: Run Cypress E2E tests
+        run: npm run cy:run
+
+      - name: Merge coverage reports
+        run: npm run coverage:all
+
+      - name: Upload merged coverage to Codecov
         uses: codecov/codecov-action@v4
         with:
           token: ${{ secrets.CODECOV_TOKEN }}
-          files: ./coverage/lcov.info
+          files: ./coverage/merged/lcov.info
           verbose: true
