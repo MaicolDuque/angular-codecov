@@ -7,7 +7,14 @@
     "build": "ng build",
     "watch": "ng build --watch --configuration development",
     "test": "ng test",
-    "test:coverage": "ng test --no-watch --code-coverage"
+    "test:coverage": "ng test --no-watch --code-coverage",
+    "cy:open": "cypress open",
+    "cy:run": "cypress run",
+    "coverage:copy": "mkdir -p coverage/merged .nyc_output && cp coverage/e2e-lcov/coverage-final.json coverage/merged/from-cypress.json && cp coverage/unit-lcov/coverage-final.json coverage/merged/from-karma.json",
+    "coverage:merge": "npx nyc merge coverage/merged && mv coverage.json .nyc_output/out.json",
+    "coverage:report:ci": "npx nyc report --reporter=lcov --reporter=text-summary --report-dir=coverage/merged",
+    "coverage:report:local": "npx nyc report --reporter=lcov --reporter=text-summary",
+    "coverage:all": "npm run coverage:copy && npm run coverage:merge && npm run coverage:report:ci"
   },
   "private": true,
   "dependencies": {
@@ -19,6 +26,7 @@
     "@angular/platform-browser": "^18.2.0",
     "@angular/platform-browser-dynamic": "^18.2.0",
     "@angular/router": "^18.2.0",
+    "@istanbuljs/nyc-config-typescript": "^1.0.2",
     "rxjs": "~7.8.0",
     "tslib": "^2.3.0",
     "zone.js": "~0.14.10"
@@ -27,13 +35,17 @@
     "@angular-devkit/build-angular": "^18.2.3",
     "@angular/cli": "^18.2.3",
     "@angular/compiler-cli": "^18.2.0",
+    "@cypress/code-coverage": "^3.14.0",
+    "@skyux-sdk/istanbul-instrumenter-loader": "^4.0.0",
     "@types/jasmine": "~5.1.0",
+    "cypress": "^14.3.0",
     "jasmine-core": "~5.2.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
     "karma-coverage": "~2.2.0",
     "karma-jasmine": "~5.1.0",
     "karma-jasmine-html-reporter": "~2.1.0",
+    "ngx-build-plus": "^18.0.0",
     "typescript": "~5.5.2"
   }
 }

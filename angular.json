@@ -15,14 +15,12 @@
       "prefix": "app",
       "architect": {
         "build": {
-          "builder": "@angular-devkit/build-angular:application",
+          "builder": "@angular-devkit/build-angular:browser",
           "options": {
             "outputPath": "dist/my-angular-app",
             "index": "src/index.html",
-            "browser": "src/main.ts",
-            "polyfills": [
-              "zone.js"
-            ],
+            "main": "src/main.ts",
+            "polyfills": ["zone.js"],
             "tsConfig": "tsconfig.app.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -31,9 +29,7 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": []
           },
           "configurations": {
@@ -62,15 +58,21 @@
         },
         "serve": {
           "builder": "@angular-devkit/build-angular:dev-server",
+          "options": {
+            "buildTarget": "my-angular-app:build:development"
+          },
           "configurations": {
             "production": {
               "buildTarget": "my-angular-app:build:production"
-            },
-            "development": {
-              "buildTarget": "my-angular-app:build:development"
             }
-          },
-          "defaultConfiguration": "development"
+          }
+        },
+        "serve-coverage": {
+          "builder": "ngx-build-plus:dev-server",
+          "options": {
+            "buildTarget": "my-angular-app:build:development",
+            "extraWebpackConfig": "./cypress/coverage.webpack.js"
+          }
         },
         "extract-i18n": {
           "builder": "@angular-devkit/build-angular:extract-i18n"
@@ -78,10 +80,7 @@
         "test": {
           "builder": "@angular-devkit/build-angular:karma",
           "options": {
-            "polyfills": [
-              "zone.js",
-              "zone.js/testing"
-            ],
+            "polyfills": ["zone.js", "zone.js/testing"],
             "tsConfig": "tsconfig.spec.json",
             "inlineStyleLanguage": "scss",
             "assets": [
@@ -90,11 +89,54 @@
                 "input": "public"
               }
             ],
-            "styles": [
-              "src/styles.scss"
-            ],
+            "styles": ["src/styles.scss"],
             "scripts": [],
             "karmaConfig": "karma.conf.js"
+          }
+        },
+        "cypress-run": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "my-angular-app:serve"
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "my-angular-app:serve:production"
+            }
+          }
+        },
+        "cypress-open": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "watch": true,
+            "headless": false
+          }
+        },
+        "e2e": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "devServerTarget": "my-angular-app:serve-coverage",
+            "watch": true,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "my-angular-app:serve-coverage:production"
+            }
+          }
+        },
+        "e2e-ci": {
+          "builder": "@cypress/schematic:cypress",
+          "options": {
+            "browser": "chrome",
+            "devServerTarget": "my-angular-app:serve-coverage",
+            "watch": false,
+            "headless": false
+          },
+          "configurations": {
+            "production": {
+              "devServerTarget": "my-angular-app:serve-coverage:production"
+            }
           }
         }
       }

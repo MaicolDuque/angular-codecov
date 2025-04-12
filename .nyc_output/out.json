@@ -1,0 +1,2286 @@
+{
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/main.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/main.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 6,
+          "column": 0
+        },
+        "end": {
+          "line": 6,
+          "column": 98
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 78
+        },
+        "end": {
+          "line": 6,
+          "column": 96
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 71
+          },
+          "end": {
+            "line": 6,
+            "column": 72
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 78
+          },
+          "end": {
+            "line": 6,
+            "column": 96
+          }
+        },
+        "line": 6
+      }
+    },
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 0
+    },
+    "f": {
+      "0": 0
+    },
+    "b": {}
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/app.component.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/app.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 39
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 12
+        },
+        "end": {
+          "line": 4,
+          "column": 28
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 18
+        },
+        "end": {
+          "line": 7,
+          "column": 5
+        }
+      },
+      "3": {
+        "start": {
+          "line": 6,
+          "column": 6
+        },
+        "end": {
+          "line": 6,
+          "column": 55
+        }
+      },
+      "4": {
+        "start": {
+          "line": 8,
+          "column": 31
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 9
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 10
+        },
+        "end": {
+          "line": 15,
+          "column": 40
+        }
+      },
+      "7": {
+        "start": {
+          "line": 16,
+          "column": 10
+        },
+        "end": {
+          "line": 16,
+          "column": 65
+        }
+      },
+      "8": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 22
+        }
+      },
+      "9": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 9,
+          "column": 10
+        },
+        "end": {
+          "line": 9,
+          "column": 26
+        }
+      },
+      "11": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 40
+          },
+          "end": {
+            "line": 2,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 46
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "line": 2
+      },
+      "1": {
+        "name": "AppComponent_Factory",
+        "decl": {
+          "start": {
+            "line": 5,
+            "column": 27
+          },
+          "end": {
+            "line": 5,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 67
+          },
+          "end": {
+            "line": 7,
+            "column": 5
+          }
+        },
+        "line": 5
+      },
+      "2": {
+        "name": "AppComponent_Template",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 25
+          },
+          "end": {
+            "line": 13,
+            "column": 46
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 56
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 13
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 18
+          },
+          "end": {
+            "line": 6,
+            "column": 51
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 6,
+              "column": 18
+            },
+            "end": {
+              "line": 6,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 6,
+              "column": 39
+            },
+            "end": {
+              "line": 6,
+              "column": 51
+            }
+          }
+        ],
+        "line": 6
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 8
+          },
+          "end": {
+            "line": 17,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 8
+            },
+            "end": {
+              "line": 17,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 8
+            },
+            "end": {
+              "line": 17,
+              "column": 9
+            }
+          }
+        ],
+        "line": 14
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 7,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 3,
+      "11": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 7
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        6
+      ]
+    }
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/app.config.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/app.config.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/app.module.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/app.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 8,
+          "column": 36
+        },
+        "end": {
+          "line": 22,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 18
+        },
+        "end": {
+          "line": 12,
+          "column": 5
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 52
+        }
+      },
+      "3": {
+        "start": {
+          "line": 13,
+          "column": 31
+        },
+        "end": {
+          "line": 16,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 17,
+          "column": 31
+        },
+        "end": {
+          "line": 19,
+          "column": 6
+        }
+      },
+      "5": {
+        "start": {
+          "line": 21,
+          "column": 2
+        },
+        "end": {
+          "line": 21,
+          "column": 19
+        }
+      },
+      "6": {
+        "start": {
+          "line": 23,
+          "column": 0
+        },
+        "end": {
+          "line": 28,
+          "column": 5
+        }
+      },
+      "7": {
+        "start": {
+          "line": 24,
+          "column": 2
+        },
+        "end": {
+          "line": 27,
+          "column": 5
+        }
+      },
+      "8": {
+        "start": {
+          "line": 29,
+          "column": 0
+        },
+        "end": {
+          "line": 29,
+          "column": 91
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 8,
+            "column": 37
+          },
+          "end": {
+            "line": 8,
+            "column": 38
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 8,
+            "column": 43
+          },
+          "end": {
+            "line": 22,
+            "column": 1
+          }
+        },
+        "line": 8
+      },
+      "1": {
+        "name": "AppModule_Factory",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 27
+          },
+          "end": {
+            "line": 10,
+            "column": 44
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 64
+          },
+          "end": {
+            "line": 12,
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 23,
+            "column": 1
+          },
+          "end": {
+            "line": 23,
+            "column": 2
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 23,
+            "column": 13
+          },
+          "end": {
+            "line": 28,
+            "column": 1
+          }
+        },
+        "line": 23
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 11,
+            "column": 18
+          },
+          "end": {
+            "line": 11,
+            "column": 48
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 11,
+              "column": 18
+            },
+            "end": {
+              "line": 11,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 11,
+              "column": 39
+            },
+            "end": {
+              "line": 11,
+              "column": 48
+            }
+          }
+        ],
+        "line": 11
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 2
+          },
+          "end": {
+            "line": 27,
+            "column": 4
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 24,
+              "column": 3
+            },
+            "end": {
+              "line": 24,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 24,
+              "column": 39
+            },
+            "end": {
+              "line": 24,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 24,
+              "column": 53
+            },
+            "end": {
+              "line": 27,
+              "column": 4
+            }
+          }
+        ],
+        "line": 24
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/helper.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/helper.ts",
+    "statementMap": {},
+    "fnMap": {},
+    "branchMap": {},
+    "s": {},
+    "f": {},
+    "b": {}
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/shared.module.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/shared.module.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 39
+        },
+        "end": {
+          "line": 15,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 6,
+          "column": 18
+        },
+        "end": {
+          "line": 8,
+          "column": 5
+        }
+      },
+      "2": {
+        "start": {
+          "line": 7,
+          "column": 6
+        },
+        "end": {
+          "line": 7,
+          "column": 55
+        }
+      },
+      "3": {
+        "start": {
+          "line": 9,
+          "column": 31
+        },
+        "end": {
+          "line": 11,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 12,
+          "column": 31
+        },
+        "end": {
+          "line": 12,
+          "column": 54
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 2
+        },
+        "end": {
+          "line": 14,
+          "column": 22
+        }
+      },
+      "6": {
+        "start": {
+          "line": 16,
+          "column": 0
+        },
+        "end": {
+          "line": 21,
+          "column": 5
+        }
+      },
+      "7": {
+        "start": {
+          "line": 17,
+          "column": 2
+        },
+        "end": {
+          "line": 20,
+          "column": 5
+        }
+      },
+      "8": {
+        "start": {
+          "line": 11,
+          "column": 7
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      },
+      "9": {
+        "start": {
+          "line": 11,
+          "column": 13
+        },
+        "end": {
+          "line": 11,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 40
+          },
+          "end": {
+            "line": 4,
+            "column": 41
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 46
+          },
+          "end": {
+            "line": 15,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "SharedModule_Factory",
+        "decl": {
+          "start": {
+            "line": 6,
+            "column": 27
+          },
+          "end": {
+            "line": 6,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 6,
+            "column": 67
+          },
+          "end": {
+            "line": 8,
+            "column": 5
+          }
+        },
+        "line": 6
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 16,
+            "column": 1
+          },
+          "end": {
+            "line": 16,
+            "column": 2
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 16,
+            "column": 13
+          },
+          "end": {
+            "line": 21,
+            "column": 1
+          }
+        },
+        "line": 16
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 18
+          },
+          "end": {
+            "line": 7,
+            "column": 51
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 7,
+              "column": 18
+            },
+            "end": {
+              "line": 7,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 7,
+              "column": 39
+            },
+            "end": {
+              "line": 7,
+              "column": 51
+            }
+          }
+        ],
+        "line": 7
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 17,
+            "column": 2
+          },
+          "end": {
+            "line": 20,
+            "column": 4
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 17,
+              "column": 3
+            },
+            "end": {
+              "line": 17,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 39
+            },
+            "end": {
+              "line": 17,
+              "column": 48
+            }
+          },
+          {
+            "start": {
+              "line": 17,
+              "column": 53
+            },
+            "end": {
+              "line": 20,
+              "column": 4
+            }
+          }
+        ],
+        "line": 17
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        0,
+        1
+      ]
+    }
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standalone/standalone1/standalone1.component.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standalone/standalone1/standalone1.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 4,
+          "column": 47
+        },
+        "end": {
+          "line": 58,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 8,
+          "column": 6
+        },
+        "end": {
+          "line": 8,
+          "column": 19
+        }
+      },
+      "2": {
+        "start": {
+          "line": 11,
+          "column": 6
+        },
+        "end": {
+          "line": 11,
+          "column": 26
+        }
+      },
+      "3": {
+        "start": {
+          "line": 13,
+          "column": 18
+        },
+        "end": {
+          "line": 15,
+          "column": 5
+        }
+      },
+      "4": {
+        "start": {
+          "line": 14,
+          "column": 6
+        },
+        "end": {
+          "line": 14,
+          "column": 63
+        }
+      },
+      "5": {
+        "start": {
+          "line": 16,
+          "column": 31
+        },
+        "end": {
+          "line": 55,
+          "column": 6
+        }
+      },
+      "6": {
+        "start": {
+          "line": 25,
+          "column": 8
+        },
+        "end": {
+          "line": 47,
+          "column": 9
+        }
+      },
+      "7": {
+        "start": {
+          "line": 26,
+          "column": 22
+        },
+        "end": {
+          "line": 26,
+          "column": 43
+        }
+      },
+      "8": {
+        "start": {
+          "line": 27,
+          "column": 10
+        },
+        "end": {
+          "line": 27,
+          "column": 32
+        }
+      },
+      "9": {
+        "start": {
+          "line": 28,
+          "column": 10
+        },
+        "end": {
+          "line": 28,
+          "column": 36
+        }
+      },
+      "10": {
+        "start": {
+          "line": 29,
+          "column": 10
+        },
+        "end": {
+          "line": 29,
+          "column": 45
+        }
+      },
+      "11": {
+        "start": {
+          "line": 30,
+          "column": 10
+        },
+        "end": {
+          "line": 30,
+          "column": 28
+        }
+      },
+      "12": {
+        "start": {
+          "line": 31,
+          "column": 10
+        },
+        "end": {
+          "line": 31,
+          "column": 59
+        }
+      },
+      "13": {
+        "start": {
+          "line": 32,
+          "column": 10
+        },
+        "end": {
+          "line": 32,
+          "column": 44
+        }
+      },
+      "14": {
+        "start": {
+          "line": 33,
+          "column": 10
+        },
+        "end": {
+          "line": 38,
+          "column": 13
+        }
+      },
+      "15": {
+        "start": {
+          "line": 34,
+          "column": 12
+        },
+        "end": {
+          "line": 34,
+          "column": 34
+        }
+      },
+      "16": {
+        "start": {
+          "line": 35,
+          "column": 31
+        },
+        "end": {
+          "line": 35,
+          "column": 48
+        }
+      },
+      "17": {
+        "start": {
+          "line": 36,
+          "column": 31
+        },
+        "end": {
+          "line": 36,
+          "column": 48
+        }
+      },
+      "18": {
+        "start": {
+          "line": 37,
+          "column": 12
+        },
+        "end": {
+          "line": 37,
+          "column": 100
+        }
+      },
+      "19": {
+        "start": {
+          "line": 39,
+          "column": 10
+        },
+        "end": {
+          "line": 39,
+          "column": 36
+        }
+      },
+      "20": {
+        "start": {
+          "line": 40,
+          "column": 10
+        },
+        "end": {
+          "line": 40,
+          "column": 28
+        }
+      },
+      "21": {
+        "start": {
+          "line": 41,
+          "column": 10
+        },
+        "end": {
+          "line": 41,
+          "column": 38
+        }
+      },
+      "22": {
+        "start": {
+          "line": 42,
+          "column": 10
+        },
+        "end": {
+          "line": 42,
+          "column": 40
+        }
+      },
+      "23": {
+        "start": {
+          "line": 43,
+          "column": 10
+        },
+        "end": {
+          "line": 43,
+          "column": 43
+        }
+      },
+      "24": {
+        "start": {
+          "line": 44,
+          "column": 10
+        },
+        "end": {
+          "line": 44,
+          "column": 24
+        }
+      },
+      "25": {
+        "start": {
+          "line": 45,
+          "column": 10
+        },
+        "end": {
+          "line": 45,
+          "column": 30
+        }
+      },
+      "26": {
+        "start": {
+          "line": 46,
+          "column": 10
+        },
+        "end": {
+          "line": 46,
+          "column": 54
+        }
+      },
+      "27": {
+        "start": {
+          "line": 48,
+          "column": 8
+        },
+        "end": {
+          "line": 51,
+          "column": 9
+        }
+      },
+      "28": {
+        "start": {
+          "line": 49,
+          "column": 10
+        },
+        "end": {
+          "line": 49,
+          "column": 27
+        }
+      },
+      "29": {
+        "start": {
+          "line": 50,
+          "column": 10
+        },
+        "end": {
+          "line": 50,
+          "column": 43
+        }
+      },
+      "30": {
+        "start": {
+          "line": 57,
+          "column": 2
+        },
+        "end": {
+          "line": 57,
+          "column": 30
+        }
+      },
+      "31": {
+        "start": {
+          "line": 12,
+          "column": 7
+        },
+        "end": {
+          "line": 21,
+          "column": null
+        }
+      },
+      "32": {
+        "start": {
+          "line": 15,
+          "column": 4
+        },
+        "end": {
+          "line": 15,
+          "column": 17
+        }
+      },
+      "33": {
+        "start": {
+          "line": 19,
+          "column": 4
+        },
+        "end": {
+          "line": 19,
+          "column": 24
+        }
+      },
+      "34": {
+        "start": {
+          "line": 12,
+          "column": 13
+        },
+        "end": {
+          "line": 21,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 48
+          },
+          "end": {
+            "line": 4,
+            "column": 49
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 54
+          },
+          "end": {
+            "line": 58,
+            "column": 1
+          }
+        },
+        "line": 4
+      },
+      "1": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 7,
+            "column": 4
+          },
+          "end": {
+            "line": 7,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 7,
+            "column": 14
+          },
+          "end": {
+            "line": 9,
+            "column": 5
+          }
+        },
+        "line": 7
+      },
+      "2": {
+        "name": "(anonymous_2)",
+        "decl": {
+          "start": {
+            "line": 10,
+            "column": 4
+          },
+          "end": {
+            "line": 10,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 10,
+            "column": 19
+          },
+          "end": {
+            "line": 12,
+            "column": 5
+          }
+        },
+        "line": 10
+      },
+      "3": {
+        "name": "Standalone1Component_Factory",
+        "decl": {
+          "start": {
+            "line": 13,
+            "column": 27
+          },
+          "end": {
+            "line": 13,
+            "column": 55
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 75
+          },
+          "end": {
+            "line": 15,
+            "column": 5
+          }
+        },
+        "line": 13
+      },
+      "4": {
+        "name": "Standalone1Component_Template",
+        "decl": {
+          "start": {
+            "line": 24,
+            "column": 25
+          },
+          "end": {
+            "line": 24,
+            "column": 54
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 24,
+            "column": 64
+          },
+          "end": {
+            "line": 52,
+            "column": 7
+          }
+        },
+        "line": 24
+      },
+      "5": {
+        "name": "Standalone1Component_Template_button_click_7_listener",
+        "decl": {
+          "start": {
+            "line": 33,
+            "column": 42
+          },
+          "end": {
+            "line": 33,
+            "column": 95
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 33,
+            "column": 98
+          },
+          "end": {
+            "line": 38,
+            "column": 11
+          }
+        },
+        "line": 33
+      },
+      "6": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 14,
+            "column": 2
+          },
+          "end": {
+            "line": 14,
+            "column": 5
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 26
+          },
+          "end": {
+            "line": 16,
+            "column": 3
+          }
+        }
+      },
+      "7": {
+        "name": "(anonymous_1)",
+        "decl": {
+          "start": {
+            "line": 18,
+            "column": 2
+          },
+          "end": {
+            "line": 18,
+            "column": 10
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 18,
+            "column": 31
+          },
+          "end": {
+            "line": 20,
+            "column": 3
+          }
+        }
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 14,
+            "column": 18
+          },
+          "end": {
+            "line": 14,
+            "column": 59
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 14,
+              "column": 18
+            },
+            "end": {
+              "line": 14,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 14,
+              "column": 39
+            },
+            "end": {
+              "line": 14,
+              "column": 59
+            }
+          }
+        ],
+        "line": 14
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 25,
+            "column": 8
+          },
+          "end": {
+            "line": 47,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 25,
+              "column": 8
+            },
+            "end": {
+              "line": 47,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 25,
+              "column": 8
+            },
+            "end": {
+              "line": 47,
+              "column": 9
+            }
+          }
+        ],
+        "line": 25
+      },
+      "2": {
+        "loc": {
+          "start": {
+            "line": 48,
+            "column": 8
+          },
+          "end": {
+            "line": 51,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 48,
+              "column": 8
+            },
+            "end": {
+              "line": 51,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 48,
+              "column": 8
+            },
+            "end": {
+              "line": 51,
+              "column": 9
+            }
+          }
+        ],
+        "line": 48
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 1,
+      "5": 1,
+      "6": 7,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1,
+      "11": 1,
+      "12": 1,
+      "13": 1,
+      "14": 1,
+      "15": 1,
+      "16": 1,
+      "17": 1,
+      "18": 1,
+      "19": 1,
+      "20": 1,
+      "21": 1,
+      "22": 1,
+      "23": 1,
+      "24": 1,
+      "25": 1,
+      "26": 1,
+      "27": 7,
+      "28": 6,
+      "29": 6,
+      "30": 1,
+      "31": 1,
+      "32": 2,
+      "33": 1,
+      "34": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 0,
+      "2": 1,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 2,
+      "7": 1
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        6
+      ],
+      "2": [
+        6,
+        1
+      ]
+    }
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standalone/standalone2/standalone2.component.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standalone/standalone2/standalone2.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 10,
+          "column": 7
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      },
+      "1": {
+        "start": {
+          "line": 10,
+          "column": 13
+        },
+        "end": {
+          "line": 12,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {},
+    "branchMap": {},
+    "s": {
+      "0": 1,
+      "1": 1
+    },
+    "f": {},
+    "b": {}
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standard/standard1/standard1.component.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standard/standard1/standard1.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 18
+        },
+        "end": {
+          "line": 6,
+          "column": 5
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 61
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 31
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 10
+        },
+        "end": {
+          "line": 14,
+          "column": 36
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 10
+        },
+        "end": {
+          "line": 15,
+          "column": 43
+        }
+      },
+      "7": {
+        "start": {
+          "line": 16,
+          "column": 10
+        },
+        "end": {
+          "line": 16,
+          "column": 28
+        }
+      },
+      "8": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 28
+        }
+      },
+      "9": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 46
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "line": 2
+      },
+      "1": {
+        "name": "Standard1Component_Factory",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 73
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "line": 4
+      },
+      "2": {
+        "name": "Standard1Component_Template",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 25
+          },
+          "end": {
+            "line": 12,
+            "column": 52
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 62
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 57
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 5,
+              "column": 18
+            },
+            "end": {
+              "line": 5,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 5,
+              "column": 39
+            },
+            "end": {
+              "line": 5,
+              "column": 57
+            }
+          }
+        ],
+        "line": 5
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 8
+          },
+          "end": {
+            "line": 17,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 8
+            },
+            "end": {
+              "line": 17,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 13,
+              "column": 8
+            },
+            "end": {
+              "line": 17,
+              "column": 9
+            }
+          }
+        ],
+        "line": 13
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 7
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        6
+      ]
+    }
+  },
+  "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standard/standard2/standard2.component.ts": {
+    "path": "/Users/maicolduque/Documents/Maicol/Angular/my-angular-app/src/app/standard/standard2/standard2.component.ts",
+    "statementMap": {
+      "0": {
+        "start": {
+          "line": 2,
+          "column": 45
+        },
+        "end": {
+          "line": 23,
+          "column": 4
+        }
+      },
+      "1": {
+        "start": {
+          "line": 4,
+          "column": 18
+        },
+        "end": {
+          "line": 6,
+          "column": 5
+        }
+      },
+      "2": {
+        "start": {
+          "line": 5,
+          "column": 6
+        },
+        "end": {
+          "line": 5,
+          "column": 61
+        }
+      },
+      "3": {
+        "start": {
+          "line": 7,
+          "column": 31
+        },
+        "end": {
+          "line": 20,
+          "column": 6
+        }
+      },
+      "4": {
+        "start": {
+          "line": 13,
+          "column": 8
+        },
+        "end": {
+          "line": 17,
+          "column": 9
+        }
+      },
+      "5": {
+        "start": {
+          "line": 14,
+          "column": 10
+        },
+        "end": {
+          "line": 14,
+          "column": 36
+        }
+      },
+      "6": {
+        "start": {
+          "line": 15,
+          "column": 10
+        },
+        "end": {
+          "line": 15,
+          "column": 43
+        }
+      },
+      "7": {
+        "start": {
+          "line": 16,
+          "column": 10
+        },
+        "end": {
+          "line": 16,
+          "column": 28
+        }
+      },
+      "8": {
+        "start": {
+          "line": 22,
+          "column": 2
+        },
+        "end": {
+          "line": 22,
+          "column": 28
+        }
+      },
+      "9": {
+        "start": {
+          "line": 8,
+          "column": 7
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      },
+      "10": {
+        "start": {
+          "line": 8,
+          "column": 13
+        },
+        "end": {
+          "line": 10,
+          "column": null
+        }
+      }
+    },
+    "fnMap": {
+      "0": {
+        "name": "(anonymous_0)",
+        "decl": {
+          "start": {
+            "line": 2,
+            "column": 46
+          },
+          "end": {
+            "line": 2,
+            "column": 47
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 2,
+            "column": 52
+          },
+          "end": {
+            "line": 23,
+            "column": 1
+          }
+        },
+        "line": 2
+      },
+      "1": {
+        "name": "Standard2Component_Factory",
+        "decl": {
+          "start": {
+            "line": 4,
+            "column": 27
+          },
+          "end": {
+            "line": 4,
+            "column": 53
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 4,
+            "column": 73
+          },
+          "end": {
+            "line": 6,
+            "column": 5
+          }
+        },
+        "line": 4
+      },
+      "2": {
+        "name": "Standard2Component_Template",
+        "decl": {
+          "start": {
+            "line": 12,
+            "column": 25
+          },
+          "end": {
+            "line": 12,
+            "column": 52
+          }
+        },
+        "loc": {
+          "start": {
+            "line": 12,
+            "column": 62
+          },
+          "end": {
+            "line": 18,
+            "column": 7
+          }
+        },
+        "line": 12
+      }
+    },
+    "branchMap": {
+      "0": {
+        "loc": {
+          "start": {
+            "line": 5,
+            "column": 18
+          },
+          "end": {
+            "line": 5,
+            "column": 57
+          }
+        },
+        "type": "binary-expr",
+        "locations": [
+          {
+            "start": {
+              "line": 5,
+              "column": 18
+            },
+            "end": {
+              "line": 5,
+              "column": 35
+            }
+          },
+          {
+            "start": {
+              "line": 5,
+              "column": 39
+            },
+            "end": {
+              "line": 5,
+              "column": 57
+            }
+          }
+        ],
+        "line": 5
+      },
+      "1": {
+        "loc": {
+          "start": {
+            "line": 13,
+            "column": 8
+          },
+          "end": {
+            "line": 17,
+            "column": 9
+          }
+        },
+        "type": "if",
+        "locations": [
+          {
+            "start": {
+              "line": 13,
+              "column": 8
+            },
+            "end": {
+              "line": 17,
+              "column": 9
+            }
+          },
+          {
+            "start": {
+              "line": 13,
+              "column": 8
+            },
+            "end": {
+              "line": 17,
+              "column": 9
+            }
+          }
+        ],
+        "line": 13
+      }
+    },
+    "s": {
+      "0": 1,
+      "1": 1,
+      "2": 1,
+      "3": 1,
+      "4": 7,
+      "5": 1,
+      "6": 1,
+      "7": 1,
+      "8": 1,
+      "9": 1,
+      "10": 1
+    },
+    "f": {
+      "0": 1,
+      "1": 1,
+      "2": 7
+    },
+    "b": {
+      "0": [
+        1,
+        1
+      ],
+      "1": [
+        1,
+        6
+      ]
+    }
+  }
+}

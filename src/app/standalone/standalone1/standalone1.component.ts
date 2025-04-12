@@ -10,11 +10,12 @@ import { SharedModule } from '../../shared.module';
   styleUrl: './standalone1.component.scss',
 })
 export class Standalone1Component {
+  result!: number;
   add(x: number, y: number): number {
     return x + y;
   }
 
-  subtract(x: number, y: number): number {
-    return x - y;
+  subtract(x: number, y: number): void {
+    this.result = x - y;
   }
 }

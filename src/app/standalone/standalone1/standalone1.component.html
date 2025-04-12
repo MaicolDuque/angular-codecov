@@ -1,4 +1,11 @@
 <hr>
 <p>standalone1 works!</p>
+
+<input type="number" name="number1" id="number1" #number1>
+<input type="number" name="number2" id="number2" #number2>
+<button (click)="subtract(number1.valueAsNumber, number2.valueAsNumber)">Substract</button>
+<div>
+    resultado: <span id="result">{{ result }}</span>
+</div>
 <app-standard2></app-standard2>
 <hr>
