@@ -20,7 +20,7 @@ describe('Standalone1Component', () => {
     expect(component).toBeTruthy();
   });
 
-  // it('should add', () => {
-  //   expect(component.add(4, 3)).toEqual(7);
-  // });
+  it('should add', () => {
+    expect(component.add(4, 3)).toEqual(7);
+  });
 });
