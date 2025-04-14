@@ -10,12 +10,11 @@
     "test:coverage": "ng test --no-watch --code-coverage",
     "cy:open": "cypress open",
     "cy:run": "cypress run",
-    "coverage:clean": "rm -rf coverage/merged .nyc_output",
     "coverage:copy": "mkdir -p coverage/merged .nyc_output && cp coverage/e2e-lcov/coverage-final.json coverage/merged/from-cypress.json && cp coverage/unit-lcov/coverage-final.json coverage/merged/from-karma.json",
     "coverage:merge": "npx nyc merge coverage/merged && mv coverage.json .nyc_output/out.json",
     "coverage:report:ci": "npx nyc report --reporter=lcov --reporter=text-summary --report-dir=coverage/merged",
     "coverage:report:local": "npx nyc report --reporter=lcov --reporter=text-summary",
-    "coverage:all": "npm run coverage:clean && npm run coverage:copy && npm run coverage:merge && npm run coverage:report:ci",
+    "coverage:all": "npm run coverage:copy && npm run coverage:merge && npm run coverage:report:ci",
     "e2e:ci": "ng run my-angular-app:e2e-ci"
   },
   "private": true,
