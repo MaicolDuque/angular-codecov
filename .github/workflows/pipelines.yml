@@ -25,7 +25,7 @@ jobs:
         run: npm run test:coverage
 
       - name: Start the app for Cypress tests
-        run: npm run start
+        run: npm run e2e:ci
         env:
           CI: true
 

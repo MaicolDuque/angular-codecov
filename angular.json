@@ -131,7 +131,7 @@
             "browser": "chrome",
             "devServerTarget": "my-angular-app:serve-coverage",
             "watch": false,
-            "headless": false
+            "headless": true
           },
           "configurations": {
             "production": {
