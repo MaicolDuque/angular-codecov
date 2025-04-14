@@ -89,6 +89,12 @@
                 "input": "public"
               }
             ],
+            "codeCoverageExclude": [
+              "src/main.ts",
+              "src/environments/**",
+              "src/polyfills.ts",
+              "src/test.ts"
+            ],
             "styles": ["src/styles.scss"],
             "scripts": [],
             "karmaConfig": "karma.conf.js"
