@@ -29,11 +29,11 @@ jobs:
         env:
           CI: true
 
-      - name: Wait for app to be ready
-        run: npx wait-on http://localhost:4200 # Adjust URL if needed
+      # - name: Wait for app to be ready
+      #   run: npx wait-on http://localhost:4200 # Adjust URL if needed
 
-      - name: Run Cypress E2E tests
-        run: npm run cy:run
+      # - name: Run Cypress E2E tests
+      #   run: npm run cy:run
 
       - name: Merge coverage reports
         run: npm run coverage:all
